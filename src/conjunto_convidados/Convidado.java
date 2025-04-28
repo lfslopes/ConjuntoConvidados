@@ -2,7 +2,7 @@ package conjunto_convidados;
 
 public class Convidado implements Comparable<Convidado>{
     private String nome;
-    private int codigoConvite;
+    private final int codigoConvite;
 
     public Convidado(String nome, int codigoConvite) {
         this.nome = nome;
