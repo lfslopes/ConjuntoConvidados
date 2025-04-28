@@ -11,6 +11,9 @@ public class Main {
         ConjuntoConvidados conjuntoConvidados = new ConjuntoConvidados(convidado, convidado2, convidado3);
         conjuntoConvidados.adicionarConvidado(convidado4);
 
+        conjuntoConvidados.exibirConvidados();
+        System.out.println("\n###################################################################################\n");
+
         conjuntoConvidados.removerConvidadoPorCodigoConvite(1);
 
         System.out.println("Quantidade de convidados: " + conjuntoConvidados.contarConvidados());
